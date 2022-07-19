@@ -12,7 +12,7 @@ Should be done:
 examples:\
 https://studio.uxpincdn.com/studio/wp-content/uploads/2020/09/BlogHeader_SearchBar_1200x600.png \
 https://www.sliderrevolution.com/wp-content/uploads/2021/02/cssheader1.jpg \
-Input value should be saved to LocalStorage during component’s unmount. While initializing this component look at LocalStorage value and show it.
+Input value should be saved to LocalStorage during component’s unmount. While initializing look at it's value in LocalStorage and show it.
 * Cards. The more details are on the card – the better.\
 examples: \
 https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/behance.jpg \
