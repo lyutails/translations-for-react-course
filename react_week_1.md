@@ -18,8 +18,9 @@ examples: \
 https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/behance.jpg \
 https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/rightmove.jpg \
 https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/awwwards.jpg \
-**In the situation when the access to life cycles of component is needed or there is a necessity of state – use class components. Using hooks is forbidden at this stage.**
+**In the situation when the access to life cycles of a component is needed or there is a necessity of state – use class components. Using hooks is forbidden at this stage.**
 6.	Add tests for components. Mock LocalStorage. Add test for one card, as well as tests for the list of all cards. Usage of Testing Library React or Enzyme is allowed, but only one of them. Preferred Testing Library React.
+
 All logical parts should be set into separate components.
 ### Score
 The task will be assessed by mentor in march. For checking convenience create Pull Request to main(master) branch (**DO NOT MERGE**). 
