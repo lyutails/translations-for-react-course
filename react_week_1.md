@@ -10,14 +10,14 @@ Should be done:
 5.	Draw the following on the main page:
 * Search Bar.\
 examples:\
-https://studio.uxpincdn.com/studio/wp-content/uploads/2020/09/BlogHeader_SearchBar_1200x600.png\
-https://www.sliderrevolution.com/wp-content/uploads/2021/02/cssheader1.jpg\
+https://studio.uxpincdn.com/studio/wp-content/uploads/2020/09/BlogHeader_SearchBar_1200x600.png \
+https://www.sliderrevolution.com/wp-content/uploads/2021/02/cssheader1.jpg \
 Input value should be saved to LocalStorage during component’s unmount. While initializing this component look at LocalStorage value and show it.
 * Cards. The more details are on the card – the better.\
 examples: \
-https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/behance.jpg\
-https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/rightmove.jpg\
-https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/awwwards.jpg\
+https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/behance.jpg \
+https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/rightmove.jpg \
+https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/awwwards.jpg \
 **In the situation when the access to life cycles of component is needed or there is a necessity of state – use class components. Using hooks is forbidden at this stage.**
 6.	Add tests for components. Mock LocalStorage. Add test for one card, as well as tests for the list of all cards. Usage of Testing Library React or Enzyme is allowed, but only one of them. Preferred Testing Library React.
 All logical parts should be set into separate components.
