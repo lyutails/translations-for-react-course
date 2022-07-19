@@ -26,6 +26,7 @@ The task will be assessed by mentor in march. For checking convenience create Pu
 1.	Tests – **4 points**
 2.	eslint, prettier – **2 points**
 3.	React App + components and router – **9 points** \
+
 If one of the mentioned above list’s items is not accomplished – grade for the task is **0 points**. If there is direct DOM manipulations – **0 points**.
 ### Repository requirements
 * the task is done in **private school repository** [How to work with private repository](https://docs.rs.school/#/private-repository?id=%D0%9A%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-%D1%81-%D0%BF%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%BD%D1%8B%D0%BC-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B5%D0%BC)
