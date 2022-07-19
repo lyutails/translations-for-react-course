@@ -25,7 +25,7 @@ All logical parts should be set into separate components.
 The task will be assessed by mentor in march. For checking convenience create Pull Request to main(master) branch (**DO NOT MERGE**). 
 1.	Tests – **4 points**
 2.	eslint, prettier – **2 points**
-3.	React App + components and router – **9 points** \
+3.	React App + components and router – **9 points**
 
 If one of the mentioned above list’s items is not accomplished – grade for the task is **0 points**. If there is direct DOM manipulations – **0 points**.
 ### Repository requirements
