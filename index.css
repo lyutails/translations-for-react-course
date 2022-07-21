@@ -5,17 +5,39 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-h1 {
-  font-family: 'Roboto', 'Arial', sans-serif;
-  font-size: 50px;
+body {
+  width: 100%;
 }
 
-h2 {
-  font-family: 'Roboto', 'Arial', sans-serif;
-  font-size: 32px;
-}
+  h1 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 50px;
+  }
 
-p {
-  font-family: 'Roboto', 'Arial', sans-serif;
-  font-size: 20px;
-}
+  h2 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 32px;
+  }
+
+    .wrapper_section_1 {
+      width: 1600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+      p {
+        font-family: 'Roboto', 'Arial', sans-serif;
+        font-size: 20px;
+      }
+
+      ol {
+        font-family: 'Roboto', 'Arial', sans-serif;
+        font-size: 14px;
+      }
+
+      li {
+        display: list-item;
+      }
