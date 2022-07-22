@@ -9,7 +9,7 @@
 
 body {
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .header {
@@ -39,6 +39,10 @@ body {
     padding-left: 5%;
     padding-right: 5%;
   }
+
+    .font-effect-fire {
+      margin: 0px 0px 20px 0px;
+    }
 
     h1 {
       font-family: 'Roboto', 'Arial', sans-serif;
@@ -79,5 +83,9 @@ body {
 }
 
   .footer_content {
+    width: 130px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
     margin: 20px 0px 0px 50px;
   }
