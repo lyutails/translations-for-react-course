@@ -1,0 +1,100 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 1 React Components</title>
+  <link rel="icon" type="image/x-icon" href="./refs/React-icon.svg.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon|outline|emboss|shadow-multiple">
+</head>
+<body>
+  <header class="header"><span class='logo'></span></header>
+  <div class="wrapper">
+  <h1 class="font-effect-fire">Week 1</h1>
+  <h2>React. Components</h2>  
+    <p>Should be done:</p>
+    <ol>
+      <li>Create separate branch for this task.</li>
+      <li>Use CRA with template --typescript.</li>
+      <li>Set up eslint and prettier so that project would not build if having errors. Use <a href='https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/module01/configs.md' target="_blank">configs</a> [RU]</li>
+      <li>Add React-Router version 6. Add header showing current page, also add pages “About Us”, “404”. If trying to
+        input unknown route into url – application should redirect to “404”.</li>
+      <li>Draw the following on the main page:
+        <ul>
+          <li>Search Bar.
+            </br>examples:
+            <ul>
+              <li><a href='https://studio.uxpincdn.com/studio/wp-content/uploads/2020/09/BlogHeader_SearchBar_1200x600.png' target="_blank">https://studio.uxpincdn.com/studio/wp-content/uploads/2020/09/BlogHeader_SearchBar_1200x600.png</a></li>
+              <li><a href='https://www.sliderrevolution.com/wp-content/uploads/2021/02/cssheader1.jpg' target="_blank">https://www.sliderrevolution.com/wp-content/uploads/2021/02/cssheader1.jpg</a></li>
+            </ul>
+            Input value should be saved to LocalStorage during component’s unmount. While initializing this component
+            look
+            at LocalStorage value and show it.
+          </li>
+          <li>
+            Cards. The more details are on the card – the better.
+            </br>examples:
+            <ul>
+              <li><a href='https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/behance.jpg' target="_blank">https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/behance.jpg</a></li>
+              <li><a href='https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/rightmove.jpg' target="_blank">https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/rightmove.jpg</a></li>
+              <li><a href='https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/awwwards.jpg' target="_blank">https://www.webdesignerdepot.com/cdn-origin/uploads/2017/01/awwwards.jpg</a></li>
+            </ul>
+            <div class='bold'>In the situation when the access to life cycles of component is needed or there is a necessity of state – use
+            class components. Using hooks is forbidden at this stage.</div>
+          </li>
+        </ul>
+      </li>
+      <li>Add tests for components. Mock LocalStorage. Add test for one card, as well as tests for the list of all
+        cards.
+        Usage of Testing Library React or Enzyme is allowed, but only one of them. Preferred Testing Library React. 
+        </br>All logical parts should be set into separate components.</li>
+    </ol> 
+  <h2>Score</h2>
+  <p>The task will be assessed by mentor in march. For checking convenience create Pull Request to main(master) branch
+    <span class="bold">(DO NOT MERGE).</span></p>
+  <ol>
+    <li>Tests – <span class='bold'>4 points</span></li>
+    <li>eslint, prettier – <span class='bold'>2 points</span></li>
+    <li>React App + components and router – <span class='bold'>9 points</span></li>
+  </ol>
+  <p>If one of the mentioned above list’s items is not accomplished – grade for the task is 0 points. If there is direct
+    DOM manipulations – <span class='bold'>0 points.</span></p>
+  <h2>Repository requirements</h2>
+  <ol>
+    <li>the task is done in private school repository <a href='https://docs.rs.school/#/private-repository?id=%D0%9A%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-%D1%81-%D0%BF%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%BD%D1%8B%D0%BC-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B5%D0%BC' target="_blank">How to work with private repository</a> [RU]</li>
+    <li>in private school’s repository create branch with the name of the task from main branch and work in this (dev)
+      created branch</li>
+    <li>the commits history should reflect the process of app creating <a href='https://docs.rs.school/#/git-convention?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2' target="_blank">Commits requirements</a> [RU]</li>
+    <li>after finishing development it’s necessary to make Pull Request from app’s branch to main branch 
+      <a href='https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr' target="_blank">Pull Request requirements</a> [RU] <span class="bold">Do not merge Pull Request from the development branch to the main branch</span></li>
+  </ol>
+  <h2>Theory</h2>
+  <ul>
+    <li><a href='https://docs.google.com/document/d/1WLWjBiVMjsVADf5FWFYfPObQOrLD1624h5etyafCfr8/edit' target="_blank">React. Components. Materials</a></li>
+    <li>CRA - <a href='https://reactjs.org/docs/create-a-new-react-app.html' target="_blank">Create a New React App</a></li>
+    <li><a href='https://reactjs.org/docs/components-and-props.html' target="_blank">Components - reactjs.org</a></li>
+    <li>React-router <a href='https://reactrouter.com/docs/en/v6/getting-started/tutorial' target="_blank">documentation + tutorial</a></li>
+    <li>React-router <a href='https://www.youtube.com/watch?v=0auS9DNTmzE' target="_blank">video course</a> [RU]</li>
+    <li>React Testing <a href='https://testing-library.com/docs/react-testing-library/intro/' target="_blank">Library documentation</a></li>
+    <li>React Testing Library course - <a href='https://www.youtube.com/watch?v=n79PMyqcCJ8&t=585s' target="_blank">React Testing Library. Полный курс</a> [RU]</li>    
+  </ul>
+  <h2>React</h2>
+    <ul>
+      <li>Rolling Scopes School Lithuania. <a href='https://www.youtube.com/watch?v=L8CmtfCu9AI' target="_blank">React. Part 1</a></li>
+      <li>Rolling Scopes School Lithuania. <a href='https://www.youtube.com/watch?v=Rrg4D6AHc5A' target="_blank">React. Part 2</a></li>
+      <li>Rolling Scopes School Lithuania. <a href='https://www.youtube.com/watch?v=w9MvuGWVvkY' target="_blank">React. Part 3</a></li>
+      <li>Short course react + typescript - <a href='https://www.youtube.com/watch?v=FJDVKeh7RJI' target="_blank">React & TypeScript - Course for Beginners</a></li>
+      <li>Full tutorial: <a href="https://www.youtube.com/watch?v=4UZrsTqkcW4&t=8419s" target="_blank">Full React Course 2020 - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks</a></li>
+      <li>Additionally: <a href="https://www.youtube.com/watch?v=GNrdg3PzpJQ" target="_blank">React JS фундаментальный курс от А до Я</a> [RU]</li>
+    </ul>
+  </div>
+</body>
+<footer class="footer">
+  <div class="footer_content">
+    <div class="font-effect-neon">@lyutails</div>
+    <div class="year">july 2022</div>    
+  </div>
+</footer>
+</html>
